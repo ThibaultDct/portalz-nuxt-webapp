@@ -1,5 +1,17 @@
-$body-bg: #000;
-$body-color: #111;
+$body-bg: #282f44;
+$body-color: #ffffff;
+
+$primary: #191d32;
+$secondary: #282f44;
+$accent: #fb8500;
+$info: #277da1;
+$success: #2a9d8f;
+$warning: #f4a261;
+$alert: #e76f51;
+
+.accent {
+    color: $accent;
+}
 
 // Then import Bootstrap and BootstrapVue SCSS files (order is important)
 @import 'node_modules/bootstrap/scss/bootstrap.scss';

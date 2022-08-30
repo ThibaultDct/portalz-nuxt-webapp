@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'portalz-nuxt-webapp',
+    title: 'Portalz',
     htmlAttrs: {
       lang: 'en'
     },
@@ -18,7 +18,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    //'@/assets/style/themes.scss',
+    '@/assets/style/themes.scss',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -38,6 +38,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+    'nuxt-material-design-icons',
+    'nuxt-material-design-icons-iconfont'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
